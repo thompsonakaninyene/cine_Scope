@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back-div {
+  background-color: white;
+  /* padding: 20px; */
+  margin-bottom: 40px;
+  /* margin: 20px; */
+  /* width: 900px; */
+
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(5, 5, 7, 0.98) 0%,
+      rgba(5, 5, 7, 0.94) 30%,
+      rgba(5, 5, 7, 0.78) 65%,
+      rgba(5, 5, 7, 0.94) 100%
+    ),
+    url("https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2022/12/23/243386619-babylon.jpg");
+
+  background-size: cover;
+  background-position: center 42%;
+  background-repeat: no-repeat;
+}
+
+.header-dine {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  border-bottom: 2px solid var(--color-accent);
+}
+.logo1 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+}
+.mine-span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  margin-right: 70px;
+}
+.mine-span img {
+  border-radius: 40px;
+}
+.lord {
+  width: 150px;
+  height: 65px;
+}
+.search {
+  width: 30px;
+}
+
+.input-movie {
+  display: flex;
+  gap: 20px;
+}
+.movies-input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--color-surface);
+  color: white;
+}
+
+.chip {
+  width: 20px;
+}
+.movie-flier1 div {
+  background-color: var(--color-surface);
+  border-radius: 10px;
+  
+}
+
+
+
+.movie-flier1 img {
+  padding: 10px;
+}
+.movie-flier1 p {
+  color: rgb(197, 197, 105);
+  margin-left: 20px;
+}
+.movie-flier1 h4 {
+  margin-left: 20px;
+}
+
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer button {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--color-accent);
+  margin-top: 15px;
+}
+footer p {
+  color: rgb(197, 197, 105);
+}
+.waiter-span {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.waiter-span button {
+  padding: 7px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-accent);
+  color: var(--color-text-primary);
+}
+.waiter {
+  display: flex;
+  flex-direction: column;
+}
+/* Clear button*/
+.clear-btn {
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 20px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e53935;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.clear-btn:hover {
+  background-color: #c62828;
+  transform: translateY(-2px);
+  opacity: 0.7;
+}
+.discover-movies{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 100px;
+}
+
+.movie-flier1 {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.movie-card {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}

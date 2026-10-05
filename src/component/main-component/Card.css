@@ -1,0 +1,83 @@
+.card-mov{
+    padding: 40px;
+}
+
+.header{
+    font-size: 5em;
+    font-weight: 800;
+    color: var(--color-accent);
+    font-family: monospace;
+}
+.header2{
+    color: var(--color-text-secondary);
+    font-size: 40px;
+}
+.welcome-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.shieft{
+    margin-top: 500px;
+}
+.watch-btn{
+    padding: 40px;
+    
+}
+
+.welcome{
+    color: var(--color-accent);
+    font-size: large;
+
+}
+.movie-button {
+    display: flex;
+    gap: 20px;
+  padding: 16px 24px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.watch-now {
+  background-color:var(--color-accent);
+  color: #000;
+}
+.add-watch{
+    background-color: var(--color-accent);
+}
+
+.watch-now:hover {
+  background-color:var(--color-accent);
+}
+
+.about{
+    color: var(--color-accent);
+    
+}
+
+.info{
+    font-style: italic;
+    font-size: 20px;
+  
+    
+}
+.watch-list {
+    padding: 15px 20px;
+    width: 140px;
+    color: white;
+    font-weight: bold;
+    background-color: #292933;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header4{
+    color: var(--color-accent);
+    font-size: 20px;
+}
+

@@ -1,0 +1,40 @@
+.navigate button {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    border: none;
+    border-radius: 5px;
+   width: 120px;
+    /* white-space: nowrap; */
+    padding: 10px;
+     margin-right: 100px;
+     text-decoration: none;
+    
+}
+.auth-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.register-btn:hover{
+    background-color: var(--color-accent);
+}
+.home-btn:hover{
+    background-color: var(--color-accent);
+}
+.discover-btn:hover{
+    background-color: var(--color-accent);
+}
+.home-btn,.discover-btn,.register-btn{
+    background-color: var(--color-text-secondary);
+}
+.yellow-btn{
+    background-color: var(--color-accent);
+}
+.green-btn{
+    background-color: var(--color-accent);
+    color: black;
+}
+
