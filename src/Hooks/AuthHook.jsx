@@ -7,7 +7,7 @@ const [isLoading, setIsLoading] = useState(true)
     const[isRegister, setIsRegister] = useState(false)
       const [loginDate, setLoginDate] = useState (
         {
-            email: '',
+            username: '',
             password: ''
         }
       );
@@ -33,7 +33,7 @@ const [isLoading, setIsLoading] = useState(true)
          
     // if (!formData.fullName || !formData.email || !formData.passWord) return alert("all inputs are required") 
   
-    const response = await fetch ("https://zyloo-api-v1.onrender.com/auth/login", {
+    const response = await fetch ("https://dummyjson.com/auth/login", {
       method: "POST", 
       headers: {"Content-Type" : "application/json"}, 
       credentials: "include",

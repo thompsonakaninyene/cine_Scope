@@ -46,11 +46,11 @@ export default function Login() {
 
                     <input 
                     className="email-input"
-                    type="email"
-                     name="email"
-                      value={loginDate.email} 
+                    type="text"
+                     name="username"
+                     value={loginDate.username} 
                       onChange={handleChange} 
-                     placeholder="Enter your email address"
+                     placeholder="Enter user name emilys"
                      required />
                      
                 </div>
@@ -70,7 +70,7 @@ export default function Login() {
                         type="password" name="password"
                         value={loginDate.password}
                         onChange={handleChange}
-                        placeholder="Enter your password"  /> 
+                        placeholder="Enter your password : emilyspass"  /> 
                 </div>
 
                 <div className="signIn-div">
