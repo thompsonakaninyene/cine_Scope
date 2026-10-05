@@ -40,7 +40,7 @@ export default function Login() {
                 
                 <div login-field>
                     <label  className="labels" htmlFor="email">
-                        Email
+                        userName
                     </label>
                     <br />
 
